@@ -1,8 +1,8 @@
 from tensorflow.python.keras.models import load_model
 
-from create_neural_network import create_neural_network
-from test_neural_network import test_neural_network
-from train_neural_network import train_neural_network
+import create_neural_network
+import test_neural_network
+import train_neural_network
 
 model_for_train = create_neural_network()
 
